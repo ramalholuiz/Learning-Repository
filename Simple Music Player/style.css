@@ -1,0 +1,37 @@
+*,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url('./assets/background.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+  display: block;
+  text-align: center;
+  margin: 5% auto;
+  width: 500px;
+  height: 300px;
+  border: 5px solid white;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  position: relative;
+}
+
+h1,
+audio {
+  margin-top: 20px;
+  position: relative;
+  transform: translateY(50%);
+}
+
+.controls {
+  transform: translateY(350%);
+}
