@@ -1,21 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct Node
+typedef struct Node
 {
   int data;
   struct Node *next;
-};
+} Node;
 
-int main()
+int main(void)
 {
   Node *head = NULL;
   Node *second = NULL;
   Node *third = NULL;
 
-  head = (struct Node) * malloc(sizeof(struct Node));
-  second = (struct Node) * malloc(sizeof(struct Node));
-  third = (struct Node) * malloc(sizeof(struct Node));
+  head = (Node *)malloc(sizeof(struct Node));
+  second = (Node *)malloc(sizeof(struct Node));
+  third = (Node *)malloc(sizeof(struct Node));
 
   head->data = 1;
   head->next = second;
@@ -26,5 +26,9 @@ int main()
   third->data = 3;
   third->next = NULL;
 
-  return 0
+  printf("First: %i\n", head->data);
+  printf("Second: %i\n", second->data);
+  printf("Third: %i\n", third->data);
+
+  return 0;
 }
