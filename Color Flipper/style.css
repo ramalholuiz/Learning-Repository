@@ -5,10 +5,12 @@
 
 nav {
   display: flex;
-  flex-direction: column;
   padding: 10px;
   background-color: gray;
   color: white;
+}
+
+.menu {
 }
 
 .a1 {
