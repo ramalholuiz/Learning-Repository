@@ -4,7 +4,23 @@
 }
 
 nav {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: gray;
+  color: white;
+}
+
+.a1 {
+  background-color: blue;
+}
+
+.a2 {
+  background-color: red;
+}
+
+.a3 {
+  background-color: green;
 }
 
 .back {
@@ -13,4 +29,10 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#btn1 {
+  width: 100px;
+  height: 50px;
+  padding: 10px;
 }
