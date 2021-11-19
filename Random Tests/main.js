@@ -45,7 +45,11 @@ function filtro(callback) {
   return filtrados;
 }
 
-console.log(filtro(carros)); // carros2 contém o array filtrado pela condição da função carroNovo -> carros que contém ano >= 2015
+console.log("Resultado da fake filter");
+console.log("Com filtro: ");
+console.log(filtro(carros));
+console.log("Sem filtro");
+console.log(carros);
 
 //criação do array de objetos para os testes
 
@@ -66,15 +70,16 @@ function howManyDol(people) {
   return `${people.nome} tem ${people.dinheiro} dólares`;
 }
 
-function printString(callback) {
+function fakeMap(callback) {
   let strings = [];
   for (let i of people) {
     strings.push(howManyDol(i));
   }
   return strings;
 }
-
-console.log(printString(people));
+console.log("Resultado da fake map");
+console.log("Array original: ", people);
+console.log("Array após map: ", fakeMap(people));
 
 //função reduce
 
@@ -90,4 +95,5 @@ function fakeReduce(callback) {
   return total;
 }
 
+console.log("Resultado da fake reduce:");
 console.log("O total de dolares é: " + fakeReduce(people));
