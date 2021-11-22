@@ -1,5 +1,9 @@
-function dec(e) {
-  let num = e;
-  let valor = parseInt(num.innerText);
-  num.innerText = valor - 1;
-}
+(() => {
+  console.log('Esta é uma função "auto invocável"');
+})();
+
+// com sintaxe normal
+
+(function () {
+  console.log('Esta é uma função "auto invocável"');
+})();
