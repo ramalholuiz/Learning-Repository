@@ -39,3 +39,9 @@ O container flex é o elemento que abriga itens flex. Os itens flex são filhos 
 São importantes para definição de algumas propriedades.
 
 ![Eixos flexbox](./assets/eixos.jpg)
+
+## justify-content
+
+Resumo desta propriedade:
+
+![justify-content](./assets/justify-content.jpg)
