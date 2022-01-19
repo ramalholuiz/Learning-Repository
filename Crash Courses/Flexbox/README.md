@@ -41,7 +41,7 @@ São importantes para definição de algumas propriedades.
 - justify-content: alinha no eixo principal;
 - align-items: alinha no eixo perpendicular.
 
-![Eixos flexbox](./assets/eixos.jpg)
+![Eixos flexbox](./assets/axis.jpg)
 
 ## justify-content
 
