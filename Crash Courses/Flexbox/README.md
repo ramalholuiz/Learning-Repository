@@ -38,6 +38,9 @@ O container flex é o elemento que abriga itens flex. Os itens flex são filhos 
 
 São importantes para definição de algumas propriedades.
 
+- justify-content: alinha no eixo principal;
+- align-items: alinha no eixo perpendicular.
+
 ![Eixos flexbox](./assets/eixos.jpg)
 
 ## justify-content
