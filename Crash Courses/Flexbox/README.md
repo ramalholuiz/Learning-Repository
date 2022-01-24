@@ -48,3 +48,5 @@ São importantes para definição de algumas propriedades.
 Resumo desta propriedade:
 
 ![justify-content](./assets/justify-content.jpg)
+
+O mesmo se aplica para `align-items`, mas no eixo perpendicular.
