@@ -2,11 +2,25 @@
 
 1. Segundo Frederick Brooks, desenvolvimento de software enfrenta dificuldades essenciais (para as quais não há bala de prata) e acidentais (para as quais existe uma solução melhor). Dê um exemplo de dificuldade acidental que já tenha experimentado ao desenvolver programas, mesmo que pequenos. Sugestão: elas podem estar relacionadas a ferramentas que tenha usado, como compiladores, IDEs, bancos de dados, sistemas operacionais, etc.
 
+-   Resposta: <span style="color:red">Já enfrentei dificuldades relacionadas ao uso de ferramentas de gerenciamento de pacotes (npm com node) no momento de subir código para produção.<span>
+
 2. Diferencie requisitos funcionais de requisitos não-funcionais.
+
+-   Resposta:
+    <div style="color:red">
+    <ul>
+    <li>Requisitos funcionais: </li>
+    <li>Requisitos não-funcionais: </li>
+    </ul>
+    <div>
 
 3. Explique por que testes podem ser considerados tanto uma atividade de verificação como de validação de software. Qual tipo de teste é mais adequado se o objetivo for verificação? Qual tipo de teste é mais adequado se o objetivo for validar um sistema de software?
 
+-   Resposta: <span style="color:red"> <span>
+
 4. Por que testes não conseguem provar a ausência de bugs?
+
+-   Resposta: <span style="color:red">O fato de um teste não encontrar bugs, não conclui que não existam bugs no software, apenas que aquele teste em específico não encontrou nenhum bug.<span>
 
 5. Suponha um programa que tenha uma única entrada: um inteiro de 64 bits. Em um teste exaustivo, temos que testar esse programa com todos os possíveis inteiros (logo, 264). Se cada teste levar 1 nanossegundo (10-9 segundos), quanto tempo levará esse teste exaustivo?
 
