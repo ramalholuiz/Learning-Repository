@@ -78,11 +78,4 @@ else
 
 O que você faria se seu chefe pedisse para escrever um if como o acima? Para mais informações sobre esse episódio, consulte [essa](https://en.wikipedia.org/wiki/Volkswagen_emissions_scandal) página da Wikipedia.
 
--   Resposta:
-
-```html
-<span style="color:red"
-    >Decisão difícil... Questionaria o meu chefe, e se possível, pediria para
-    que esta tarefa não fosse alocada para mim.</span
->
-```
+-   Resposta: <span style="color:red">Decisão difícil... Questionaria o meu chefe, e se possível, pediria para que esta tarefa não fosse alocada para mim.</span>
